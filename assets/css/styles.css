@@ -144,6 +144,7 @@ html {
   bottom: 40px;
   width: 100%;
   line-height: 40px;
+  text-shadow: 0 0 1px black;
 }
 #slider .img-contain .img-text h2 {
   font-weight: lighter;
@@ -214,6 +215,7 @@ html {
   background-color: white;
   margin-top: 40px;
   margin-bottom: 30px;
+  list-style: none;
 }
 
 .booking-date li {
@@ -307,8 +309,8 @@ html {
 }
 
 .modal .ticket-buy {
-  max-width: 100%;
-  min-height: 460px;
+  min-height: 25vh;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -351,6 +353,7 @@ html {
 
 .modal .ticket-buy-form {
   padding: 15px;
+  overflow: hidden;
 }
 .modal .ticket-buy-form .modal-label {
   display: inline;

@@ -11,7 +11,7 @@
   } */
 
 /* Tablet & Mobile */
-@media (max-width: 1023px) {
+@media (max-width: 63.975em) {
   button {
     padding: 16px 23px !important;
   }
@@ -29,10 +29,15 @@
     line-height: 2;
     font-size: 24px;
   }
+
+  .modal .ticket-buy {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 /* Mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
   .s-full-width {
     width: 100%;
   }
@@ -93,9 +98,7 @@
     margin-top: 0px;
   }
 
-  .modal .ticket-buy {
-    margin-left: 10px;
-    margin-right: 10px;
+  .modal .modal-footer {
   }
 
   .modal .modal-footer p {
